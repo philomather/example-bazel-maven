@@ -17,7 +17,7 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 
 maven_install(
     artifacts = [
-        "org.apache.thrift:libthrift:0.12.0",
+        "org.apache.thrift:libthrift:0.14.0",
     ],
     fetch_sources = True,
     repositories = [
