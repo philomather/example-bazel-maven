@@ -17,6 +17,7 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 
 maven_install(
     artifacts = [
+        "org.apache.httpcomponents:httpclient:4.5.13",
         "org.apache.thrift:libthrift:0.12.0",
     ],
     fetch_sources = True,
