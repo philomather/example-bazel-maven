@@ -1,0 +1,364 @@
+{
+    "dependency_tree": {
+        "conflict_resolution": {},
+        "dependencies": [
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-annotations:2.3.0",
+                "file": "v1/https/jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.jar"
+                ],
+                "sha256": "0c8c3811322cc84c09a93f34436fe784a1259dd5376a90aec5a73493456f757d"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.3.0",
+                "file": "v1/https/jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0-sources.jar"
+                ],
+                "sha256": "d61fb97993e28e98a26f08ff1100a1d8619390559cd58872a1113869d38261ca"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-core:2.3.3",
+                "file": "v1/https/jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.3.3/jackson-core-2.3.3.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.3.3/jackson-core-2.3.3.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.3.3/jackson-core-2.3.3.jar"
+                ],
+                "sha256": "11c9651fd29f0bd87b0014fc3ae18d1157c1d69f1a3b90c97ecb7a179d5d7450"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-core:jar:sources:2.3.3",
+                "file": "v1/https/jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.3.3/jackson-core-2.3.3-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.3.3/jackson-core-2.3.3-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.3.3/jackson-core-2.3.3-sources.jar"
+                ],
+                "sha256": "364c7ae0f542a3bde14e0f88212eec53385dd86d826d7cec7d045a8e36332f0a"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-databind:2.3.3",
+                "file": "v1/https/jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.core:jackson-annotations:2.3.0",
+                    "com.fasterxml.jackson.core:jackson-core:2.3.3"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.core:jackson-core:2.3.3",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.3.0"
+                ],
+                "url": "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3.jar"
+                ],
+                "sha256": "46b5cdab6f8d6aad830ead3acafc9cd4970bd0054d12a4d9b5f4eb6efa70cf4a"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.3.3",
+                "file": "v1/https/jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3-sources.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.3.0",
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.3.3"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.3.3",
+                    "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.3.0"
+                ],
+                "url": "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3-sources.jar"
+                ],
+                "sha256": "b69e1eea83cc6390f33cf8dea6b845a96aa36f003d81fce584cb0ed9bd954fbc"
+            },
+            {
+                "coord": "com.google.code.findbugs:jsr305:3.0.2",
+                "file": "v1/https/jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+                ],
+                "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+            },
+            {
+                "coord": "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                "file": "v1/https/jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
+                ],
+                "sha256": "1c9e85e272d0708c6a591dc74828c71603053b48cc75ae83cce56912a2aa063b"
+            },
+            {
+                "coord": "com.google.errorprone:error_prone_annotations:2.3.2",
+                "file": "v1/https/jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar"
+                ],
+                "sha256": "357cd6cfb067c969226c442451502aee13800a24e950fdfde77bcdb4565a668d"
+            },
+            {
+                "coord": "com.google.errorprone:error_prone_annotations:jar:sources:2.3.2",
+                "file": "v1/https/jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2-sources.jar"
+                ],
+                "sha256": "7ce688ed1582a67097228c050192b7cfd00479a81d2b921f7cd5116994f1402d"
+            },
+            {
+                "coord": "com.google.guava:failureaccess:1.0.1",
+                "file": "v1/https/jcenter.bintray.com/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+                ],
+                "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+            },
+            {
+                "coord": "com.google.guava:failureaccess:jar:sources:1.0.1",
+                "file": "v1/https/jcenter.bintray.com/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar"
+                ],
+                "sha256": "092346eebbb1657b51aa7485a246bf602bb464cc0b0e2e1c7e7201fadce1e98f"
+            },
+            {
+                "coord": "com.google.guava:guava:28.0-jre",
+                "file": "v1/https/jcenter.bintray.com/com/google/guava/guava/28.0-jre/guava-28.0-jre.jar",
+                "directDependencies": [
+                    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.j2objc:j2objc-annotations:1.3",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.checkerframework:checker-qual:2.8.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "com.google.errorprone:error_prone_annotations:2.3.2"
+                ],
+                "dependencies": [
+                    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.j2objc:j2objc-annotations:1.3",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.checkerframework:checker-qual:2.8.1",
+                    "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                    "com.google.guava:failureaccess:1.0.1",
+                    "com.google.errorprone:error_prone_annotations:2.3.2"
+                ],
+                "url": "https://jcenter.bintray.com/com/google/guava/guava/28.0-jre/guava-28.0-jre.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/guava/guava/28.0-jre/guava-28.0-jre.jar"
+                ],
+                "sha256": "73e4d6ae5f0e8f9d292a4db83a2479b5468f83d972ac1ff36d6d0b43943b4f91"
+            },
+            {
+                "coord": "com.google.guava:guava:jar:sources:28.0-jre",
+                "file": "v1/https/jcenter.bintray.com/com/google/guava/guava/28.0-jre/guava-28.0-jre-sources.jar",
+                "directDependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "com.google.j2objc:j2objc-annotations:jar:sources:1.3",
+                    "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                    "org.checkerframework:checker-qual:jar:sources:2.8.1",
+                    "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.2"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:3.0.2",
+                    "com.google.j2objc:j2objc-annotations:jar:sources:1.3",
+                    "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                    "org.checkerframework:checker-qual:jar:sources:2.8.1",
+                    "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                    "com.google.guava:failureaccess:jar:sources:1.0.1",
+                    "com.google.errorprone:error_prone_annotations:jar:sources:2.3.2"
+                ],
+                "url": "https://jcenter.bintray.com/com/google/guava/guava/28.0-jre/guava-28.0-jre-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/guava/guava/28.0-jre/guava-28.0-jre-sources.jar"
+                ],
+                "sha256": "fd865e2dbc1f6be12417bff5538e848c584f7297e4e6e4039d7967ffd27d43c2"
+            },
+            {
+                "coord": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                "file": "v1/https/jcenter.bintray.com/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+                ],
+                "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+            },
+            {
+                "coord": "com.google.j2objc:j2objc-annotations:1.3",
+                "file": "v1/https/jcenter.bintray.com/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar"
+                ],
+                "sha256": "21af30c92267bd6122c0e0b4d20cccb6641a37eaf956c6540ec471d584e64a7b"
+            },
+            {
+                "coord": "com.google.j2objc:j2objc-annotations:jar:sources:1.3",
+                "file": "v1/https/jcenter.bintray.com/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar"
+                ],
+                "sha256": "ba4df669fec153fa4cd0ef8d02c6d3ef0702b7ac4cabe080facf3b6e490bb972"
+            },
+            {
+                "coord": "junit:junit:4.12",
+                "file": "v1/https/jcenter.bintray.com/junit/junit/4.12/junit-4.12.jar",
+                "directDependencies": [
+                    "org.hamcrest:hamcrest-core:1.3"
+                ],
+                "dependencies": [
+                    "org.hamcrest:hamcrest-core:1.3"
+                ],
+                "url": "https://jcenter.bintray.com/junit/junit/4.12/junit-4.12.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/junit/junit/4.12/junit-4.12.jar"
+                ],
+                "sha256": "59721f0805e223d84b90677887d9ff567dc534d7c502ca903c0c2b17f05c116a"
+            },
+            {
+                "coord": "junit:junit:jar:sources:4.12",
+                "file": "v1/https/jcenter.bintray.com/junit/junit/4.12/junit-4.12-sources.jar",
+                "directDependencies": [
+                    "org.hamcrest:hamcrest-core:jar:sources:1.3"
+                ],
+                "dependencies": [
+                    "org.hamcrest:hamcrest-core:jar:sources:1.3"
+                ],
+                "url": "https://jcenter.bintray.com/junit/junit/4.12/junit-4.12-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/junit/junit/4.12/junit-4.12-sources.jar"
+                ],
+                "sha256": "9f43fea92033ad82bcad2ae44cec5c82abc9d6ee4b095cab921d11ead98bf2ff"
+            },
+            {
+                "coord": "org.apache.commons:commons-compress:1.8.1",
+                "file": "v1/https/jcenter.bintray.com/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar"
+                ],
+                "sha256": "5fca136503f86ecc6cb61fbd17b137d59e56b45c7a5494e6b8fd3cabd4697fbd"
+            },
+            {
+                "coord": "org.apache.commons:commons-compress:jar:sources:1.8.1",
+                "file": "v1/https/jcenter.bintray.com/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar"
+                ],
+                "sha256": "acf3fffb7d10d992086b910d78dad184ee21f458f3374632e7c2b89f104db31b"
+            },
+            {
+                "coord": "org.checkerframework:checker-qual:2.8.1",
+                "file": "v1/https/jcenter.bintray.com/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar"
+                ],
+                "sha256": "9103499008bcecd4e948da29b17864abb64304e15706444ae209d17ebe0575df"
+            },
+            {
+                "coord": "org.checkerframework:checker-qual:jar:sources:2.8.1",
+                "file": "v1/https/jcenter.bintray.com/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1-sources.jar"
+                ],
+                "sha256": "abff0b3dfbfe94c1c6f00eb03a964ef57747008ee95e911a318387df565bd0b2"
+            },
+            {
+                "coord": "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                "file": "v1/https/jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar"
+                ],
+                "sha256": "92654f493ecfec52082e76354f0ebf87648dc3d5cec2e3c3cdb947c016747a53"
+            },
+            {
+                "coord": "org.codehaus.mojo:animal-sniffer-annotations:jar:sources:1.17",
+                "file": "v1/https/jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-sources.jar"
+                ],
+                "sha256": "2571474a676f775a8cdd15fb9b1da20c4c121ed7f42a5d93fca0e7b6e2015b40"
+            },
+            {
+                "coord": "org.hamcrest:hamcrest-core:1.3",
+                "file": "v1/https/jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+                ],
+                "sha256": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+            },
+            {
+                "coord": "org.hamcrest:hamcrest-core:jar:sources:1.3",
+                "file": "v1/https/jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"
+                ],
+                "sha256": "e223d2d8fbafd66057a8848cc94222d63c3cedd652cc48eddc0ab5c39c0f84df"
+            },
+            {
+                "coord": "com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava",
+                "file": null,
+                "directDependencies": [],
+                "dependencies": []
+            }
+        ],
+        "version": "0.1.0",
+        "__AUTOGENERATED_FILE_DO_NOT_MODIFY_THIS_FILE_MANUALLY": 2108329327
+    }
+}

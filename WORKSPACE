@@ -16,6 +16,7 @@ http_archive(
 load("@rules_jvm_external//:defs.bzl", "maven_install")
 
 maven_install(
+    name = "maven",
     artifacts = [
         "org.apache.thrift:libthrift:0.12.0",
     ],
@@ -27,5 +28,23 @@ maven_install(
 )
 
 load("@maven//:defs.bzl", "pinned_maven_install")
+pinned_maven_install()
+
+maven_install(
+name = "special",
+    artifacts = [
+        "junit:junit:4.12",
+        "com.google.guava:guava:28.0-jre",
+        "org.apache.commons:commons-compress:1.8.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.3.3",
+    ],
+    fetch_sources = True,
+    repositories = [
+        "https://jcenter.bintray.com/",
+    ],
+    maven_install_json = "//:special_install.json",
+)
+
+load("@special//:defs.bzl", special_pin = "pinned_maven_install")
 pinned_maven_install()
 
