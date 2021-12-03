@@ -36,7 +36,7 @@ name = "special",
         "junit:junit:4.12",
         "com.google.guava:guava:28.0-jre",
         "org.apache.commons:commons-compress:1.8.1",
-        "com.fasterxml.jackson.core:jackson-databind:2.3.3",
+        "com.fasterxml.jackson.core:jackson-databind:2.8.11.1",
     ],
     fetch_sources = True,
     repositories = [
@@ -47,5 +47,4 @@ name = "special",
 
 load("@special//:defs.bzl", special_pin = "pinned_maven_install")
 pinned_maven_install()
-
 
