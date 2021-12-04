@@ -18,6 +18,7 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 maven_install(
     name = "maven",
     artifacts = [
+        "org.apache.httpcomponents:httpclient:4.5.13",
         "org.apache.thrift:libthrift:0.12.0",
     ],
     fetch_sources = True,
@@ -47,5 +48,4 @@ name = "special",
 
 load("@special//:defs.bzl", special_pin = "pinned_maven_install")
 pinned_maven_install()
-
 
