@@ -30,13 +30,19 @@ maven_install(
 load("@maven//:defs.bzl", "pinned_maven_install")
 pinned_maven_install()
 
+load("@rules_jvm_external//:specs.bzl", "maven")
+
 maven_install(
 name = "special",
     artifacts = [
         "junit:junit:4.12",
         "com.google.guava:guava:28.0-jre",
         "org.apache.commons:commons-compress:1.8.1",
-        "com.fasterxml.jackson.core:jackson-databind:2.3.3",
+        maven.artifact(
+            group = "com.fasterxml.jackson.core",
+            artifact = "jackson-databind",
+            version = "2.3.3",
+        ),
     ],
     fetch_sources = True,
     repositories = [
