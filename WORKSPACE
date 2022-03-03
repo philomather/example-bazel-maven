@@ -35,7 +35,7 @@ load("@rules_jvm_external//:specs.bzl", "maven")
 maven_install(
 name = "special",
     artifacts = [
-        "junit:junit:4.12",
+        "junit:junit:4.13.1",
         "com.google.guava:guava:28.0-jre",
         "org.apache.commons:commons-compress:1.8.1",
         maven.artifact(
